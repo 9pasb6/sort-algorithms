@@ -1,0 +1,84 @@
+Name: Tim-sort
+Size: 100
+Limit: 68
+Segundos: 0.004
+Minutos: 6.666666666666667E-5
+Horas: 1.1111111111111112E-6
+--------------------
+Name: Tim-sort
+Size: 10000
+Limit: 98
+Segundos: 0.075
+Minutos: 0.00125
+Horas: 2.0833333333333333E-5
+--------------------
+Name: Tim-sort
+Size: 1000000
+Limit: 999
+Segundos: 5.265
+Minutos: 0.08775
+Horas: 0.0014624999999999998
+--------------------
+Name: Comb-sort
+Size: 1000000
+Limit: 9999
+Segundos: 5.565
+Minutos: 0.09275000000000001
+Horas: 0.0015458333333333335
+--------------------
+Name: Selection-sort
+Size: 1000
+Limit: 999
+Segundos: 0.008
+Minutos: 1.3333333333333334E-4
+Horas: 2.2222222222222225E-6
+--------------------
+Name: Tim-sort
+Size: 10000000
+Limit: 99999
+Segundos: 59.021
+Minutos: 0.9836833333333334
+Horas: 0.016394722222222224
+--------------------
+Name: Tim-sort
+Size: 100000
+Limit: 56
+Segundos: 0.479
+Minutos: 0.007983333333333334
+Horas: 1.3305555555555556E-4
+--------------------
+Name: Selection-sort
+Size: 1000
+Limit: 789
+Segundos: 0.008
+Minutos: 1.3333333333333334E-4
+Horas: 2.2222222222222225E-6
+--------------------
+Name: Tim-sort
+Size: 100000000
+Limit: 999999
+Segundos: 741.934
+Minutos: 12.365566666666666
+Horas: 0.20609277777777776
+--------------------
+Name: Tim-sort
+Size: 1000000
+Limit: 75
+Segundos: 13.169
+Minutos: 0.21948333333333334
+Horas: 0.0036580555555555555
+--------------------
+Name: Comb-sort
+Size: 566666
+Limit: 90
+Segundos: 3.895
+Minutos: 0.06491666666666666
+Horas: 0.0010819444444444444
+--------------------
+Name: Selection-sort
+Size: 100000
+Limit: 9999
+Segundos: 5.625
+Minutos: 0.09375
+Horas: 0.0015625
+--------------------

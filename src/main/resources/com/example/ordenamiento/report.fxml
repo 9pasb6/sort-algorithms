@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ordenamiento.ReportController">
+   <children>
+      <AnchorPane prefHeight="667.0" prefWidth="826.0">
+         <children>
+            <Label layoutX="408.0" layoutY="17.0" prefHeight="18.0" prefWidth="50.0" text="REPORTE" />
+            <Label layoutX="50.0" layoutY="91.0" prefHeight="18.0" prefWidth="174.0" text="Historico de pruebas" />
+            <Button fx:id="home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backHome" text="&lt;-" />
+            <Separator layoutY="58.0" prefHeight="0.0" prefWidth="866.0" />
+            <Label layoutX="50.0" layoutY="379.0" text="Algoritmos ordenados de mayor a menor dado por su tiempo en segundos" />
+            <TableView fx:id="datosTableView" layoutX="50.0" layoutY="137.0" prefHeight="200.0" prefWidth="764.0">
+                <columns>
+                    <TableColumn prefWidth="200" text="Nombre">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="name" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="100" text="Tamaño">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="size" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Límite Superior">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="limit" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Segundos">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="segundos" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Minutos">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="minutos" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Horas">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="horas" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+
+
+            <TableView fx:id="datosOrdenadosTableView" layoutX="50.0" layoutY="428.0" prefHeight="200.0" prefWidth="764.0">
+                <columns>
+                    <TableColumn prefWidth="200" text="Nombre">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="name" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="100" text="Tamaño">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="size" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Límite Superior">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="limit" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Segundos">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="segundos" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Minutos">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="minutos" />
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn prefWidth="150" text="Tiempo en Horas">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="horas" />
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
