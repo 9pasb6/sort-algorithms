@@ -95,6 +95,22 @@ public class HelloController {
 
     }
 
+    @FXML
+    void showTreeWindow(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/ordenamiento/tree-sort.fxml"));
+        Parent root = loader.load();
+        TreeSortController controller = loader.getController();
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+
+        controller.init(stage, this);
+        stage.show();
+        this.stage.close();
+
+    }
+
     public void setStage(Stage primaryStage) {
 
         stage = primaryStage;

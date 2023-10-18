@@ -82,3 +82,115 @@ Segundos: 5.625
 Minutos: 0.09375
 Horas: 0.0015625
 --------------------
+Name: Tim-sort
+Size: 89995
+Limit: 100
+Segundos: 0.514
+Minutos: 0.008566666666666667
+Horas: 1.4277777777777778E-4
+--------------------
+Name: Selection-sort
+Size: 100000
+Limit: 345
+Segundos: 5.459
+Minutos: 0.09098333333333333
+Horas: 0.001516388888888889
+--------------------
+Name: Tree-sort
+Size: 100
+Limit: 56
+Segundos: 0.048
+Minutos: 8.0E-4
+Horas: 1.3333333333333333E-5
+--------------------
+Name: Tree-sort
+Size: 10000
+Limit: 999
+Segundos: 0.047
+Minutos: 7.833333333333334E-4
+Horas: 1.3055555555555557E-5
+--------------------
+Name: Tree-sort
+Size: 100000
+Limit: 9999
+Segundos: 0.272
+Minutos: 0.004533333333333334
+Horas: 7.555555555555556E-5
+--------------------
+Name: Tree-sort
+Size: 1000000
+Limit: 9999
+Segundos: 2.631
+Minutos: 0.04384999999999999
+Horas: 7.308333333333332E-4
+--------------------
+Name: Tree-sort
+Size: 10000000
+Limit: 9999
+Segundos: 29.926
+Minutos: 0.49876666666666664
+Horas: 0.008312777777777777
+--------------------
+Name: Tree-sort
+Size: 100000000
+Limit: 9999
+Segundos: 322.239
+Minutos: 5.3706499999999995
+Horas: 0.08951083333333333
+--------------------
+Name: Tree-sort
+Size: 100000000
+Limit: 999999
+Segundos: 466.919
+Minutos: 7.781983333333333
+Horas: 0.1296997222222222
+--------------------
+Name: Comb-sort
+Size: 100000000
+Limit: 999999
+Segundos: 712.65
+Minutos: 11.8775
+Horas: 0.19795833333333332
+--------------------
+Name: Tim-sort
+Size: 10000
+Limit: 899
+Segundos: 0.098
+Minutos: 0.0016333333333333334
+Horas: 2.7222222222222223E-5
+--------------------
+Name: Tim-sort
+Size: 10000
+Limit: 1
+Segundos: 0.094
+Minutos: 0.0015666666666666667
+Horas: 2.6111111111111114E-5
+--------------------
+Name: Tim-sort
+Size: 10000
+Limit: 9999999
+Segundos: 0.066
+Minutos: 0.0011
+Horas: 1.8333333333333333E-5
+--------------------
+Name: Tim-sort
+Size: 10
+Limit: 9999999
+Segundos: 0.0
+Minutos: 0.0
+Horas: 0.0
+--------------------
+Name: Tim-sort
+Size: 10000000
+Limit: 9999999
+Segundos: 70.369
+Minutos: 1.1728166666666666
+Horas: 0.019546944444444443
+--------------------
+Name: Tim-sort
+Size: 1000000
+Limit: 9999
+Segundos: 9.007
+Minutos: 0.15011666666666665
+Horas: 0.0025019444444444442
+--------------------
